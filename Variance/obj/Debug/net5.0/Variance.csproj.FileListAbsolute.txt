@@ -1,0 +1,15 @@
+/Users/ys/Documents/InitiateTDDHandsOn/Variance/bin/Debug/net5.0/Variance.deps.json
+/Users/ys/Documents/InitiateTDDHandsOn/Variance/bin/Debug/net5.0/Variance.runtimeconfig.json
+/Users/ys/Documents/InitiateTDDHandsOn/Variance/bin/Debug/net5.0/Variance.runtimeconfig.dev.json
+/Users/ys/Documents/InitiateTDDHandsOn/Variance/bin/Debug/net5.0/Variance.dll
+/Users/ys/Documents/InitiateTDDHandsOn/Variance/bin/Debug/net5.0/ref/Variance.dll
+/Users/ys/Documents/InitiateTDDHandsOn/Variance/bin/Debug/net5.0/Variance.pdb
+/Users/ys/Documents/InitiateTDDHandsOn/Variance/obj/Debug/net5.0/Variance.csprojAssemblyReference.cache
+/Users/ys/Documents/InitiateTDDHandsOn/Variance/obj/Debug/net5.0/Variance.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ys/Documents/InitiateTDDHandsOn/Variance/obj/Debug/net5.0/Variance.AssemblyInfoInputs.cache
+/Users/ys/Documents/InitiateTDDHandsOn/Variance/obj/Debug/net5.0/Variance.AssemblyInfo.cs
+/Users/ys/Documents/InitiateTDDHandsOn/Variance/obj/Debug/net5.0/Variance.csproj.CoreCompileInputs.cache
+/Users/ys/Documents/InitiateTDDHandsOn/Variance/obj/Debug/net5.0/Variance.dll
+/Users/ys/Documents/InitiateTDDHandsOn/Variance/obj/Debug/net5.0/ref/Variance.dll
+/Users/ys/Documents/InitiateTDDHandsOn/Variance/obj/Debug/net5.0/Variance.pdb
+/Users/ys/Documents/InitiateTDDHandsOn/Variance/obj/Debug/net5.0/Variance.genruntimeconfig.cache
