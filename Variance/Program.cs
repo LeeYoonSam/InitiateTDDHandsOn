@@ -6,38 +6,41 @@ namespace Variance
     {
         static void Main(string[] args)
         {
-            if(args.Length == 0)
+            int n = args.Length;
+
+            if(n == 0)
             {
-                Console.WriteLine("데이터가 입력되지 않았습니다.");
+                Console.WriteLine("입력된 데이터가 없습니다.");
                 return;
             }
-            else if(args.Length == 1)
+            
+            if(n == 1)
             {
-                Console.WriteLine("2개 이상의 데이터를 입력하세요.");
+                Console.WriteLine("데이터가 부족해 분산을 계산할 수 없습니다. 2개 이상의 데이터를 입력해 주세요.");
                 return;
             }
 
-            double[] s = new double[args.Length];
-            for (int i = 0; i < s.Length; i++)
+            double[] source = new double[n];
+            for (int i = 0; i < n; i++)
             {
-                s[i] = double.Parse(args[i]);
+                source[i] = double.Parse(args[i]);
             }
 
             double sum = 0.0;
-            for (int i = 0; i < s.Length; i++)
+            for (int i = 0; i < n; i++)
             {
-                sum += s[i];
+                sum += source[i];
             }
 
-            double mean = sum / s.Length;
+            double mean = sum / n;
 
             double sumOfSquares = 0.0;
-            for (int i = 0; i < s.Length; i++)
+            for (int i = 0; i < n; i++)
             {
-                sumOfSquares += (s[i] - mean) * (s[i] - mean);
+                sumOfSquares += (source[i] - mean) * (source[i] - mean);
             }
 
-            double variance = sumOfSquares / (s.Length - 1);
+            double variance = sumOfSquares / (n - 1);
 
             Console.WriteLine($"분산: {variance}");
         }
