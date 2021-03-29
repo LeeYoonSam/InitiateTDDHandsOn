@@ -15,3 +15,6 @@ TDD 입문하기 - 샘플 코드 작성
 
 ### 테스트 우선 개발
 - [1-3 Test First Development - TEXT-REFINER(Javascript)](./TEXT-REFINER)
+
+### 장난감 TDD 로 구현
+- [장난감(1,2,3) - NumberGuessing(Java)](./NumberGuessing)
